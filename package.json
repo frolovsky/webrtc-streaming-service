@@ -2,8 +2,9 @@
   "name": "webrtc-streaming-service",
   "version": "1.0.0",
   "description": "Node.js streaming platform for private enterprise streams",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
+    "start": "node ./build/index.js",
     "start-dev": "nodemon index.ts",
     "build": "tsc -p ./"
   },
